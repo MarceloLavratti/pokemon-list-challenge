@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PokemonList from './components/PokemonList/pokemonList.jsx'
 
 /*
 Consuma a API e liste todos os pokemons da consulta do seguinte endpoint. 
@@ -22,11 +23,9 @@ EXTRA: se puder ordene por nome.
 
 function App() {
   const [count, setCount] = useState(0);
-
   return (
     <>
-      <h3>desafio fernandev</h3>
-      <h1>consumir api pokémon</h1>
+      { <PokemonList /> }
     </>
   );
 }

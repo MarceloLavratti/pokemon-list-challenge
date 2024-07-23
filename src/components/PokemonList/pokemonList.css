@@ -1,0 +1,22 @@
+.pokemon-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-list {
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pokemon-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin: 10px
+}

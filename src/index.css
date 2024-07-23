@@ -13,3 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+body {
+  background-image: url('https://www.papeldeparede.etc.br/fotos/wp-content/uploads/pokemon-pikachu-wallpaper-.jpg');
+  background-attachment: fixed;
+  background-color: red;
+}
